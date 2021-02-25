@@ -36,3 +36,6 @@ docker exec -it <container id> sh   ((to enter into a  running container as shel
 docker start containerid (to start the container)
 docker stop containerid(to stop the cotainer)
 docker rm -f containerid (to remove the single contailer)(-f means forcefully)(we can't jst remove a container while running)
+docker rm  containerid (to remove container after stoping the container)
+docker run -it -d --name vishnu imagename (to assain a custom name to a container)
+docker rename container_oldname conatiner_newname ( rename to a container)
