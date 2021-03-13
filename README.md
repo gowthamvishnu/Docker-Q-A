@@ -18,6 +18,7 @@ Docker image commads:
 docker images(it will give the list of images)
 docker image ls  (which will show how many images are in our local system.)
 docker rmi <imageid> (to remove the image)
+docker image -q(it will give you the imageid) 
 
 docker search (serivice name) 
 example:docker search tomcat
