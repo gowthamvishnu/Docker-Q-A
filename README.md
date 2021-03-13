@@ -39,3 +39,34 @@ docker rm -f containerid (to remove the single contailer)(-f means forcefully)(w
 docker rm  containerid (to remove container after stoping the container)
 docker run -it -d --name vishnu imagename (to assain a custom name to a container)
 docker rename container_oldname conatiner_newname ( rename to a container)
+docker stats (it will show the memory usage by the container)(after ontainer start)
+docker system df(it will give you the all the  disk usage by the images and conainers,etc..)
+docker system prune(this will remove all the stopped containers,all networks not used by atleast one containers,all dangling images & all bild cache)
+Note:dangling images means the images which are not associated with the containers)
+docker system prune -a(it will remove all the images,this will remove all the stopped containers,all networks not used by atleast one containers,
+all dangling images & all bild cache)
+  
+Summary:
+
+BASIC:
+docker version
+docker -v
+docker info
+docker --help
+docker login
+
+images:
+docker images
+docker pull
+docker rmi
+
+containers:
+docker ps
+docker run
+docker start
+docker stop
+
+system:
+docker stats
+docker system df
+docker system prune
