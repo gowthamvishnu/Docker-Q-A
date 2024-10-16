@@ -22,7 +22,7 @@ docker image -q(it will give you the imageid)
 
 docker search (serivice name) 
 example:docker search tomcat
-docker pull (service name) :it will the pull the image rom docker hub. 
+docker pull (service name) :it will the pull the image from docker hub. 
 example: docker pull tomcat
 
 Docker container commands:
